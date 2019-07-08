@@ -1,0 +1,14 @@
+body {
+    background-color: #c2e3fc;
+    font-family: Big Caslon, Garamond, serif;
+    display: block;
+    margin: 10%;
+}
+
+.error {
+    color: red;
+}
+
+.req {
+    color: #24af4c;
+}

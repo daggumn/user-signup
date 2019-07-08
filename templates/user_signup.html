@@ -1,0 +1,57 @@
+
+    
+    <h1>{{title}}</h1>
+    
+    <form action="/" method='post'>
+        <table>
+            <trbody>
+                <tr>
+                    <td>
+                        <label>Username: <span class="req">*</span></label>
+                    </td>
+                    <td>
+                        <input type="text" name="username" value={{username}}>
+                    </td>
+                    <td>
+                        <p class="error">{{username_error}}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password: <span class="req">*</span></label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" value={{password}}>
+                    </td>
+                    <td>
+                        <p class="error">{{password_error}}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Verify password: <span class="req">*</span></label>
+                    </td>
+                    <td>
+                        <input type="password" name="verifypwd" value={{verifypwd}}>
+                    </td>
+                    <td>
+                        <p class="error">{{verifypwd_error}}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="email" value={{email}}>
+                    </td>
+                    <td>
+                        <p class="error">{{email_error}}</p>
+                    </td>
+                </tr>
+            </trbody>
+        </table>
+        <input type="submit" value="Register" />
+    
+        
+        
