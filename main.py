@@ -29,7 +29,9 @@ def is_pw_valid(pw):
 
 def is_email(email):
     try:
-        if len(email) in range (3,21) and ' ' not in email and'@' in email and '.' in email:
+        if email == '':
+            return True
+        elif len(email) in range (3,21) and ' ' not in email and'@' in email and '.' in email:
             return True
     except ValueError:
         return False
